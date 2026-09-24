@@ -1,0 +1,18 @@
+{
+  "name": "Enemies of the Realm",
+  "consumable": "March Order",
+  "price": "1000000000000000000",
+  "outcomes": [
+    { "name": "Gold vein", "chanceBps": 4500, "reward": "2000000000000000000" },
+    { "name": "Lumber camp", "chanceBps": 3000, "reward": "1500000000000000000" },
+    { "name": "Rare node", "chanceBps": 1500, "reward": "5000000000000000000" },
+    { "name": "Empty tile", "chanceBps": 1000, "reward": "0" }
+  ],
+  "reserveFloor": "1000000000000000000",
+  "actions": {
+    "recruit": { "cost": "1000000000000000000", "label": "Recruit troop" },
+    "expand": { "cost": "5000000000000000000", "label": "Expand Realm" },
+    "raid": { "cost": "2000000000000000000", "label": "Raid a Realm" },
+    "mine": { "cost": "1000000000000000000", "label": "Mine a node" }
+  }
+}
